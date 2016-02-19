@@ -1,0 +1,5 @@
+name: simple_lib
+description: simple support library
+dependencies:
+dev_dependencies:
+  test: any

@@ -1,5 +1,7 @@
 import 'dart:html';
+import 'lib/mathobjects.dart';
 
-main() {
+void main() {
     querySelector('#Test').text = "Test";
+    
 }

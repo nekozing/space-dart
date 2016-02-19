@@ -1,5 +1,7 @@
+.*
 *.dart.js
 *.js_
 *.js.deps
 *.js.map
-
+*.lock
+packages/
