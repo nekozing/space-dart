@@ -14,5 +14,6 @@ class Vector3 {
     operator +(Vector3 v) => new Vector3(this.x + v.x, this.y + v.y, this.z + v.z); 
     operator -(Vector3 v) => new Vector3(this.x - v.x, this.y - v.y, this.z - v.z);
 
+    Vector3 invert() => new Vector3(-this.x, -this.y, -this.z);
     String toString() => "x: ${this.x} y: ${this.y} z: ${this.z}";
 }

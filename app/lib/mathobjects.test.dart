@@ -23,5 +23,9 @@ void main() {
         test("Vector3 zero", () {
             expect(Vector3.zero(), equals(new Vector3(0, 0, 0)));
         });
+
+        test("Vector3 inversion", () {
+            expect(va.invert(), new Vector3(-0.2, -2, -4));
+        });
     });
 }
